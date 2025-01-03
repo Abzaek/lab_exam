@@ -1,0 +1,6 @@
+/home/abza/todo_test/src/main/java/com/todo/todo_test/ServletInitializer.java
+/home/abza/todo_test/src/main/java/com/todo/todo_test/TodoTestApplication.java
+/home/abza/todo_test/src/main/java/com/todo/todo_test/db/DBConnectionManager.java
+/home/abza/todo_test/src/main/java/com/todo/todo_test/model/Task.java
+/home/abza/todo_test/src/main/java/com/todo/todo_test/servlets/DisplayTasksServlet.java
+/home/abza/todo_test/src/main/java/com/todo/todo_test/servlets/TaskRegistrationServlet.java

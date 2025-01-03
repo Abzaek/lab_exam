@@ -1,0 +1,23 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+
+    <!-- ContextLoaderListener for Spring -->
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/applicationContext.xml</param-value>
+    </context-param>
+
+    <!-- Servlet Mapping -->
+    <servlet>
+        <servlet-name>bookRegistrationServlet</servlet-name>
+        <servlet-class>com.todo.todo_test.servlets.BookRegistrationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>bookRegistrationServlet</servlet-name>
+        <url-pattern>/registerBook</url-pattern>
+    </servlet-mapping>
+
+</web-app>

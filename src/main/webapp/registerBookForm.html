@@ -1,0 +1,15 @@
+<form action="/registerBook" method="POST">
+    <div class="form-control">
+        <label for="title">Book Title:</label>
+        <input type="text" id="title" name="title" required>
+    </div>
+    <div class="form-control">
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author" required>
+    </div>
+    <div class="form-control">
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" step="0.01" required>
+    </div>
+    <button type="submit">Add Book</button>
+</form>
