@@ -3,66 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookstore Manager</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f5f5f5;
-        }
-        h1 {
-            color: #333;
-        }
-        .container {
-            margin-top: 50px;
-        }
-        .button {
-            display: block;
-            margin: 15px 0;
-            padding: 10px 20px;
-            text-align: center;
-            background-color: #007BFF;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            width: 200px;
-        }
-        .button:hover {
-            background-color: #0056b3;
-        }
-        form {
-            margin: 15px 0;
-        }
-        .form-control {
-            margin-bottom: 10px;
-        }
-        .form-control input {
-            width: 200px;
-            padding: 5px;
-        }
-        .form-control label {
-            display: block;
-            margin-bottom: 5px;
-        }
-    </style>
+    <title>Book Store App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-
-<h1>Welcome to the Bookstore Manager</h1>
-
-<div class="container">
-    <!-- Add a New Book -->
-    <a href="/registerBookForm.html" class="button">Add a New Book</a>
-
-    <!-- View All Books -->
-    <a href="/viewBooks" class="button">View All Books</a>
-
-    <!-- Delete a Book Form -->
-    <a href="/deleteBookForm.html" class="button">Delete a Book</a>
-
-    <!-- Search for Books Form -->
-    <a href="/searchBookForm.html" class="button">Search for Books</a>
-</div>
-
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Welcome to the Book Store App</h1>
+        <div class="text-center">
+            <a href="addBook.html" class="btn btn-primary me-2">Add Book</a>
+            <a href="bookList" class="btn btn-secondary me-2">View All Books</a>
+            <a href="search.html" class="btn btn-info me-2">Search Book</a>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
